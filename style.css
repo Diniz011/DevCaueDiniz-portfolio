@@ -395,6 +395,23 @@ span {
     gap: 4rem;
 }
 
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+/* Adicionando espaçamento entre os projetos */
+.project-gallery .port-box {
+    margin-bottom: 20px; /* Espaçamento entre os projetos */
+}
+
+.project-gallery .port-img img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px; /* Espaçamento entre a imagem e o conteúdo */
+}
+
 .port-box {
     width: 100%;
     height: 110%;
